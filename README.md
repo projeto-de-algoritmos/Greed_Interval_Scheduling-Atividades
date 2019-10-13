@@ -1,45 +1,29 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Interval Scheduling - Atividades
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 3 </br>
+**Conteúdo da Disciplina**: Algoritmos Ambiciosos </br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 16/0006210 | Francisco Heronildo |
+| 16/0010195 | João Vítor Morandi |
 
-## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+## Sobre
+Foi implementado o algoritmo de Interval Scheduling para demostrar três formas de realizar atividades(deadline, start time, slack) e demostra qual dessas formas é a melhor de realizar-se.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
 
-## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+## Instalação
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+**Linguagem**: Python3 </br>
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+**Sistema Operacional:** Ubuntu e derivados </br>
+**Via Terminal siga os passas abaixo:** </br>
 
-
-
-
+Clone o Repositório:
+`$ git clone https://github.com/projeto-de-algoritmos/PD_Interval_Scheduling_Atividades.git` </br>
+Acesse o diretório:
+`$ cd PD_Interval_Scheduling_Atividades/` </br>
+Execute:
+`$ python3 Interval_Scheduling.py` </br>
