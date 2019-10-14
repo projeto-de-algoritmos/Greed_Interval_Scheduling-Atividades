@@ -1,14 +1,16 @@
-from dataclasses import dataclass
+from dataclasses import *
 
+# struct
 @dataclass
 class Atividade:
     start: int
     finish: int
 
-
+# funcao da atividade do deadline
 def DeadLineActivities(activities):
 
     n = len(activities)
+    # ordernacao para o deadline
     x=0
     y=1
     while(x<len(activities)):
@@ -24,7 +26,7 @@ def DeadLineActivities(activities):
             y=y+1
         x=x+1
     
-
+    # print das possiveis atividade deadline
     print("Atividades que podem ser feitas (pelo deadline time): ")
 
     i = 0
@@ -37,10 +39,11 @@ def DeadLineActivities(activities):
             i = j
         j = j+1      
 
+# funcao da atividade do startline
 def StartLineActivities(activities):
-
+    
     n = len(activities)
-
+    # ordernacao para o startline
     x=0
     y=1
     while(x<len(activities)):
@@ -56,6 +59,7 @@ def StartLineActivities(activities):
             y=y+1
         x=x+1
 
+    # print das possiveis atividade startline
     print("Atividades que podem ser feitas (pelo start time): ")
 
     i = 0
@@ -68,10 +72,11 @@ def StartLineActivities(activities):
             i = j
         j = j+1  
 
+# funcao da atividade do slackline
 def SlackActivities(activities):
 
     n = len(activities)
-
+    # ordernacao para o slackline
     x=0
     y=1
     while(x<len(activities)):
@@ -87,6 +92,7 @@ def SlackActivities(activities):
             y=y+1
         x=x+1
     
+    # print das possiveis atividades de slackline
     print("Atividades que podem ser feitas (pelo slack): ")
 
     i = 0
@@ -109,6 +115,7 @@ while(n<len(activities)):
     print("Atividade",n+1,": ","(", activities[n].start, ",", activities[n].finish, ")")
     n = n +1
 
+# print's das três melhores formas de realizar as atividades
 print("\n")
 DeadLineActivities(activities)
 print("\n")
