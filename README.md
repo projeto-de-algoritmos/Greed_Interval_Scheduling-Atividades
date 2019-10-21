@@ -22,8 +22,8 @@ Foi implementado o algoritmo de Interval Scheduling para demostrar três formas 
 **Via Terminal siga os passas abaixo:** </br>
 
 Clone o Repositório:
-`$ git clone https://github.com/projeto-de-algoritmos/PD_Interval_Scheduling_Atividades.git` </br>
+`$ git clone https://github.com/projeto-de-algoritmos/Greed_Interval_Scheduling-Atividades.git` </br>
 Acesse o diretório:
-`$ cd PD_Interval_Scheduling_Atividades/` </br>
+`$ cd Greed_Interval_Scheduling-Atividades.git/` </br>
 Execute:
 `$ python3 Interval_Scheduling.py` </br>
