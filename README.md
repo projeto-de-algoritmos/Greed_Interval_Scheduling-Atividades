@@ -4,12 +4,14 @@
 **Conteúdo da Disciplina**: Algoritmos Ambiciosos </br>
 
 ## Alunos
+
 |Matrícula | Aluno |
 | -- | -- |
 | 16/0006210 | Francisco Heronildo |
 | 16/0010195 | João Vítor Morandi |
 
 ## Sobre
+
 Foi implementado o algoritmo de Interval Scheduling para demostrar três formas de realizar atividades(deadline, start time, slack) e demostra qual dessas formas é a melhor de realizar-se.
 
 ## Screenshots
@@ -46,8 +48,8 @@ Execute:
 
 ## Outros
 
-|Atividades|Tempo de Execução|
+|Casos de Atividades|Tempo de Execução|
 |:--------:|:---------------:|
-|01|0.000621|
-|02|0.000626|
-|03|0.000650|
+|01|0.000807|
+|02|0.000617|
+|03|0.000672|
