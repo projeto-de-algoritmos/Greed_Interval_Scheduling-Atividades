@@ -14,6 +14,22 @@ Foi implementado o algoritmo de Interval Scheduling para demostrar três formas 
 
 ## Screenshots
 
+### Atividades
+
+![1](https://i.imgur.com/p6HDVhd.png)
+
+### Deadline
+
+![2](https://i.imgur.com/KwavRBM.png)
+
+### Start Time
+
+![3](https://i.imgur.com/nKUeszr.png)
+
+### Slack
+
+![4](https://i.imgur.com/83OkmwB.png)
+
 ## Instalação
 
 **Linguagem**: Python3 </br>

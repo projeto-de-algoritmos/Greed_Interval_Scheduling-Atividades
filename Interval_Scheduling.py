@@ -1,4 +1,8 @@
 from dataclasses import *
+import time
+
+# tempo inicial
+inicio = time.time()
 
 # struct
 @dataclass
@@ -105,7 +109,7 @@ def SlackActivities(activities):
             i = j
         j = j+1  
 
-
+# atividades a serem realizadas
 activities = [Atividade(5,9), Atividade(1,2), Atividade(0,6), Atividade(5,7), Atividade(8,9)]
 
 print("Atividades a serem analisadas (start time, deadline): \n")
@@ -115,6 +119,9 @@ while(n<len(activities)):
     print("Atividade",n+1,": ","(", activities[n].start, ",", activities[n].finish, ")")
     n = n +1
 
+# tempo final
+fim = time.time()
+
 # print's das três melhores formas de realizar as atividades
 print("\n")
 DeadLineActivities(activities)
@@ -122,3 +129,7 @@ print("\n")
 StartLineActivities(activities)
 print("\n")
 SlackActivities(activities)
+
+# print to tempo de execucao
+print("\n")
+print('Tempo de Execucao: ', fim - inicio)
