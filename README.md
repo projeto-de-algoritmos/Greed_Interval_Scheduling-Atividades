@@ -43,3 +43,11 @@ Acesse o diretório:
 `$ cd Greed_Interval_Scheduling-Atividades.git/` </br>
 Execute:
 `$ python3 Interval_Scheduling.py` </br>
+
+## Outros
+
+|Atividades|Tempo de Execução|
+|:--------:|:---------------:|
+|01|0.000621|
+|02|0.000626|
+|03|0.000650|

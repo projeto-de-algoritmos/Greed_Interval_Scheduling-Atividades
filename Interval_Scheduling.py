@@ -111,6 +111,8 @@ def SlackActivities(activities):
 
 # atividades a serem realizadas
 activities = [Atividade(5,9), Atividade(1,2), Atividade(0,6), Atividade(5,7), Atividade(8,9)]
+# activities = [Atividade(1,3), Atividade(3,4), Atividade(5,6), Atividade(7,8), Atividade(9,0)]
+# activities = [Atividade(8,9), Atividade(1,5), Atividade(0,6), Atividade(0,7), Atividade(2,3)]
 
 print("Atividades a serem analisadas (start time, deadline): \n")
 
